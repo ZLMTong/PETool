@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="windows原理Day005提高_01.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="windows原理Day005提高_01Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PEhead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PELoadFileList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCatalogue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MySection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MySectionList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExportList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyImport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyImportListA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyImportListB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRVAToOffset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTLSDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRelocation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRelocationListA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRelocationListB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="windows原理Day005提高_01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="windows原理Day005提高_01Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PEhead.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PELoadFileList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCatalogue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MySection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MySectionList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExportList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyImport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyImportListA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyImportListB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyResource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRVAToOffset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTLSDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRelocation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRelocationListA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRelocationListB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windows原理Day005提高_01.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\windowsDay005_01.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\windows原理Day005提高_01.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
